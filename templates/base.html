@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+    <!--<a href="/index"><button>홈으로가기</button></a>-->
+    <!--<a href="/lunch"><button>점심메뉴</button></a>-->
+    <!--<a href="/lotto"><button>로또추첨</button></a>-->
+    <!--<a href="/student/토마스"><button>토마스학생</button></a>-->
+    <!--<a href="/cube/5"><button>5의세제곱</button></a>-->
+    <!--<a href="/naver"><button>Naver</button></a>-->
+    <!--<a href="/google"><button>Google</button></a>-->
+    
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/index">Home</a></li>
+        <li class="breadcrumb-item"><a href="/lunch">Lunch</a></li>
+        <li class="breadcrumb-item"><a href="/lotto">Lotto</a></li>
+        <li class="breadcrumb-item"><a href="/student/토마스">Student</a></li>
+        <li class="breadcrumb-item"><a href="/cube/5">Cube</a></li>
+        <li class="breadcrumb-item"><a href="/naver">Naver</a></li>
+        <li class="breadcrumb-item"><a href="/google">Google</a></li>
+        <!--<li class="breadcrumb-item active" aria-current="page">Data</li>-->
+      </ol>
+    </nav>
+    
+    {% block body_block %}
+    {% endblock %}
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
